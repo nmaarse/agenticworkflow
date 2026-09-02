@@ -3,7 +3,7 @@ name: New Day
 description: Add the current UTC date to the site's daily updates.
 engine: copilot
 on:
-  schedule: daily
+  # schedule: daily
   workflow_dispatch:
 permissions:
   contents: read
