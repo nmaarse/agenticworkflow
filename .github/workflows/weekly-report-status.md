@@ -3,8 +3,8 @@ name: Weekly Report Status
 description: Publish a concise weekly activity report for commits, issues, and pull requests.
 engine: copilot
 on:
-  schedule:
-    - cron: "0 9 * * 1"
+  # schedule:
+  #   - cron: "0 9 * * 1"
   workflow_dispatch:
 permissions:
   contents: read
