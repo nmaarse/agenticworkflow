@@ -52,8 +52,6 @@
 
 name: "Weekly Report Status"
 on:
-  schedule:
-    - cron: "0 9 * * 1"
   workflow_dispatch:
     inputs:
       aw_context:
